@@ -3,3 +3,7 @@ image: gitpod/workspace-full
 tasks:
   - init: yarn install && yarn run build
     command: yarn run start
+
+vscode:
+  extensions:
+    - esbenp.prettier-vscode@5.8.0:cd2Jz796EPVnD5zeCyctPw==
